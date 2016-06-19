@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 19 19:11:25 IST 2016
+http\://repo.spring.io/milestone/.error=Could not transfer artifact org.jboss.shrinkwrap\:shrinkwrap-bom\:pom\:1.2.2 from/to spring-milestones (http\://repo.spring.io/milestone)\: connect timed out
+https\://repo.maven.apache.org/maven2/.lastUpdated=1466343685196
+http\://repo.spring.io/ext-release-local/.error=Could not transfer artifact org.jboss.shrinkwrap\:shrinkwrap-bom\:pom\:1.2.2 from/to spring-ext (http\://repo.spring.io/ext-release-local/)\: connect timed out
+@default-spring-ext-http\://repo.spring.io/ext-release-local/.lastUpdated=1466343664674
+@default-spring-snapshots-http\://repo.spring.io/snapshot/.lastUpdated=1466343684692
+http\://repo.spring.io/snapshot/.error=Could not transfer artifact org.jboss.shrinkwrap\:shrinkwrap-bom\:pom\:1.2.2 from/to spring-snapshots (http\://repo.spring.io/snapshot)\: connect timed out
+@default-spring-milestones-http\://repo.spring.io/milestone/.lastUpdated=1466343674680

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.pivotal.spring.cloud</groupId>
+  <artifactId>spring-cloud-services-connector-core</artifactId>
+  <version>1.0.1.RELEASE</version>
+  <name>Spring Cloud Services Connector Core</name>
+  <description>Spring Cloud Services Connector Core</description>
+  <url>https://github.com/pivotal-cf/spring-cloud-services-connector</url>
+  <organization>
+    <name>Spring IO</name>
+    <url>http://projects.spring.io/spring-cloud</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ramnivas</id>
+      <name>Ramnivas Laddad</name>
+      <email/>
+    </developer>
+    <developer>
+      <id>cschaefer</id>
+      <name>Chris Schaefer</name>
+      <email>cschaefer@pivotal.io</email>
+    </developer>
+    <developer>
+      <id>sfrederick</id>
+      <name>Scott Frederick</name>
+      <email>sfrederick@pivotal.io</email>
+    </developer>
+    <developer>
+      <id>royclarkson</id>
+      <name>Roy Clarkson</name>
+      <email>rclarkson@pivotal.io</email>
+    </developer>
+    <developer>
+      <id>wtran</id>
+      <name>Will Tran</name>
+      <email>wtran@pivotal.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/pivotal-cf/spring-cloud-services-connector</connection>
+    <developerConnection>scm:git:git://github.com/pivotal-cf/spring-cloud-services-connector</developerConnection>
+    <url>https://github.com/pivotal-cf/spring-cloud-services-connector</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-core</artifactId>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-parent</artifactId>
+        <version>Angel.SR4</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

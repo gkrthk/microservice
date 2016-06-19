@@ -1,0 +1,10 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Jun 18 17:37:32 IST 2016
+@default-spring-snapshots-https\://repo.spring.io/libs-snapshot/.lastUpdated=1466251652268
+https\://repo.spring.io/libs-release/.error=Could not transfer artifact net.databinder\:unfiltered-netty-server_2.11\:jar\:0.8.2 from/to spring-repository (https\://repo.spring.io/libs-release/)\: The operation was cancelled.
+https\://repo.spring.io/libs-snapshot/.error=Could not transfer artifact net.databinder\:unfiltered-netty-server_2.11\:jar\:0.8.2 from/to spring-snapshots (https\://repo.spring.io/libs-snapshot/)\: The operation was cancelled.
+https\://repo.spring.io/libs-milestone/.error=Could not transfer artifact net.databinder\:unfiltered-netty-server_2.11\:jar\:0.8.2 from/to spring-milestones (https\://repo.spring.io/libs-milestone/)\: The operation was cancelled.
+@default-spring-milestones-https\://repo.spring.io/libs-milestone/.lastUpdated=1466251652221
+@default-spring-repository-https\://repo.spring.io/libs-release/.lastUpdated=1466251652153
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1466251652305
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact net.databinder\:unfiltered-netty-server_2.11\:jar\:0.8.2 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.

@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Jun 18 22:25:49 IST 2016
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1466268949543
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.maven.plugins\:maven-war-plugin\:pom\:2.2 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.

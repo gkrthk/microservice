@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-parent</artifactId>
+		<version>Angel.SR4</version>
+		<relativePath />
+	</parent>
+	<!-- override the parent's groupId and version -->
+	<groupId>io.pivotal.spring.cloud</groupId>
+	<artifactId>spring-cloud-services-starter-parent</artifactId>
+	<version>1.0.2.RELEASE</version>
+	<name>spring-cloud-services-starter-parent</name>
+	<description>Spring Cloud Services Starter</description>
+	<packaging>pom</packaging>
+	<url>http://projects.spring.io/spring-cloud</url>
+	<organization>
+		<name>Pivotal Software, Inc.</name>
+		<url>http://www.spring.io</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+		</license>
+	</licenses>
+	<scm>
+		<url>https://github.com/pivotal-cf/spring-cloud-services-starters</url>
+		<connection>scm:git:git://github.com/pivotal-cf/spring-cloud-services-starters.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/pivotal-cf/spring-cloud-services-starters.git
+		</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+	<developers>
+		<developer>
+			<id>royclarkson</id>
+			<name>Roy Clarkson</name>
+			<email>rclarkson@pivotal.io</email>
+			<organization>Pivotal Software, Inc.</organization>
+			<organizationUrl>http://www.spring.io</organizationUrl>
+		</developer>
+	</developers>
+	<properties>
+		<main.basedir>${basedir}/../..</main.basedir>
+		<!-- override the managed versions from Spring Boot -->
+		<spring-cloud-connectors.version>1.2.1.RELEASE</spring-cloud-connectors.version>
+		<!-- Spring Cloud Services -->
+		<spring-cloud-services-connectors.version>1.0.1.RELEASE</spring-cloud-services-connectors.version>
+		<cloudfoundry-certificate-truster.version>1.0.1.RELEASE</cloudfoundry-certificate-truster.version>
+	</properties>
+	<dependencyManagement>
+		<dependencies>
+			<!-- starters -->
+			<dependency>
+				<groupId>io.pivotal.spring.cloud</groupId>
+				<artifactId>spring-cloud-services-starter-circuit-breaker</artifactId>
+				<version>1.0.2.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>io.pivotal.spring.cloud</groupId>
+				<artifactId>spring-cloud-services-starter-config-client</artifactId>
+				<version>1.0.2.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>io.pivotal.spring.cloud</groupId>
+				<artifactId>spring-cloud-services-starter-service-registry</artifactId>
+				<version>1.0.2.RELEASE</version>
+			</dependency>
+			<!-- dependencies -->
+			<dependency>
+				<groupId>io.pivotal.spring.cloud</groupId>
+				<artifactId>spring-cloud-services-cloudfoundry-connector</artifactId>
+				<version>${spring-cloud-services-connectors.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.pivotal.spring.cloud</groupId>
+				<artifactId>spring-cloud-services-spring-connector</artifactId>
+				<version>${spring-cloud-services-connectors.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.pivotal.spring.cloud</groupId>
+				<artifactId>cloudfoundry-certificate-truster</artifactId>
+				<version>${cloudfoundry-certificate-truster.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>io.pivotal.spring.cloud</groupId>
+			<artifactId>spring-cloud-services-cloudfoundry-connector</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.pivotal.spring.cloud</groupId>
+			<artifactId>spring-cloud-services-spring-connector</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.pivotal.spring.cloud</groupId>
+			<artifactId>cloudfoundry-certificate-truster</artifactId>
+		</dependency>
+	</dependencies>
+</project>

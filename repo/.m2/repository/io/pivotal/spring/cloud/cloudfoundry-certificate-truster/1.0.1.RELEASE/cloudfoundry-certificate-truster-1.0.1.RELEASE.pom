@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.pivotal.spring.cloud</groupId>
+  <artifactId>cloudfoundry-certificate-truster</artifactId>
+  <version>1.0.1.RELEASE</version>
+  <name>Cloud Foundry Certificate Truster</name>
+  <description>Cloud Foundry Certificate Truster</description>
+  <url>https://github.com/pivotal-cf/cloudfoundry-certificate-truster</url>
+  <organization>
+    <name>Pivotal Software, Inc</name>
+    <url>http://pivotal.io</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wtran</id>
+      <name>Will Tran</name>
+      <email>wtran@pivotal.io</email>
+    </developer>
+    <developer>
+      <id>royclarkson</id>
+      <name>Roy Clarkson</name>
+      <email>rclarkson@pivotal.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/pivotal-cf/cloudfoundry-certificate-truster</connection>
+    <developerConnection>scm:git:git://github.com/pivotal-cf/cloudfoundry-certificate-truster</developerConnection>
+    <url>https://github.com/pivotal-cf/cloudfoundry-certificate-truster</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>commons-logging</artifactId>
+          <groupId>commons-logging</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-parent</artifactId>
+        <version>Angel.SR3</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
