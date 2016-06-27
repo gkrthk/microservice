@@ -1,0 +1,13 @@
+---
+applications:
+- name: customerinfoservice
+  memory: 512M
+  instances: 1
+  host: acss-microservice-customerinfoservice
+  domain: cfapps.io
+  services:
+      - eureka-service     
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    DEBUG: "true"
+    debug: "true"

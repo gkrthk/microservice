@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 26 21:23:21 IST 2016
+http\://repo.spring.io/libs-release-local/.error=Could not transfer artifact org.springframework.boot\:spring-boot-maven-plugin\:pom\:1.2.2.RELEASE from/to spring-libs-release (http\://repo.spring.io/libs-release-local)\: connect timed out
+http\://repo.spring.io/libs-milestone-local/.error=Could not transfer artifact org.springframework.boot\:spring-boot-maven-plugin\:pom\:1.2.2.RELEASE from/to spring-libs-milestones (http\://repo.spring.io/libs-milestone-local)\: connect timed out
+@default-spring-libs-release-http\://repo.spring.io/libs-release-local/.lastUpdated=1466956396155
+https\://repo.maven.apache.org/maven2/.lastUpdated=1466956401839
+@default-spring-libs-milestones-http\://repo.spring.io/libs-milestone-local/.lastUpdated=1466956386150

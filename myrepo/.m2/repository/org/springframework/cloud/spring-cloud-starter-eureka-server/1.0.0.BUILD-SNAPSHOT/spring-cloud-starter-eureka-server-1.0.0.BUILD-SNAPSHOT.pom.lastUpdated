@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 26 21:24:20 IST 2016
+http\://repo.spring.io/libs-snapshot-local/.error=Could not transfer artifact org.springframework.cloud\:spring-cloud-starter-eureka-server\:pom\:1.0.0.BUILD-SNAPSHOT from/to repo.spring.io-snapshots (http\://repo.spring.io/libs-snapshot-local)\: repo.spring.io
+http\://repo.spring.io/libs-milestone-local/.error=Could not transfer artifact org.springframework.cloud\:spring-cloud-starter-eureka-server\:pom\:1.0.0.BUILD-SNAPSHOT from/to repo.spring.io-milestones (http\://repo.spring.io/libs-milestone-local)\: repo.spring.io
+@default-repo.spring.io-snapshots-http\://repo.spring.io/libs-snapshot-local/.lastUpdated=1466956460348
+@default-repo.spring.io-milestones-http\://repo.spring.io/libs-milestone-local/.lastUpdated=1466956460347

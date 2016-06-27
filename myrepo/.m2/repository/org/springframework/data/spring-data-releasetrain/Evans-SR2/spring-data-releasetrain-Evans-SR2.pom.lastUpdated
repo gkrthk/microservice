@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Jun 25 01:29:52 IST 2016
+http\://repo.spring.io/libs-snapshot-local/.error=Could not transfer artifact org.springframework.data\:spring-data-releasetrain\:pom\:Evans-SR2 from/to repo.spring.io-snapshots (http\://repo.spring.io/libs-snapshot-local)\: Failed to transfer http\://repo.spring.io/libs-snapshot-local/org/springframework/data/spring-data-releasetrain/Evans-SR2/spring-data-releasetrain-Evans-SR2.pom. Error code 409, Conflict
+http\://repo.spring.io/libs-milestone-local/.lastUpdated=1466798391165
+http\://repo.spring.io/libs-milestone-local/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1466798392242
+@default-repo.spring.io-snapshots-http\://repo.spring.io/libs-snapshot-local/.lastUpdated=1466798391756

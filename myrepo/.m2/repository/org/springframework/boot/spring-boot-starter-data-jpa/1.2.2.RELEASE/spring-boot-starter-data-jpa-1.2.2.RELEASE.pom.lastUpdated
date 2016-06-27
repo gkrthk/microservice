@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 26 21:24:19 IST 2016
+http\://repo.spring.io/libs-snapshot-local/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-data-jpa\:pom\:1.2.2.RELEASE from/to repo.spring.io-snapshots (http\://repo.spring.io/libs-snapshot-local)\: repo.spring.io
+http\://repo.spring.io/libs-milestone-local/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-data-jpa\:pom\:1.2.2.RELEASE from/to repo.spring.io-milestones (http\://repo.spring.io/libs-milestone-local)\: repo.spring.io
+@default-repo.spring.io-snapshots-http\://repo.spring.io/libs-snapshot-local/.lastUpdated=1466956459420
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1466956459424
+@default-repo.spring.io-milestones-http\://repo.spring.io/libs-milestone-local/.lastUpdated=1466956459419
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-data-jpa\:pom\:1.2.2.RELEASE from/to central (https\://repo.maven.apache.org/maven2)\: repo.maven.apache.org

@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Jun 25 01:29:43 IST 2016
+http\://repo.spring.io/libs-snapshot-local/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-parent\:pom\:1.2.2.RELEASE from/to repo.spring.io-snapshots (http\://repo.spring.io/libs-snapshot-local)\: Failed to transfer http\://repo.spring.io/libs-snapshot-local/org/springframework/boot/spring-boot-starter-parent/1.2.2.RELEASE/spring-boot-starter-parent-1.2.2.RELEASE.pom. Error code 409, Conflict
+http\://repo.spring.io/libs-milestone-local/.lastUpdated=1466798382087
+http\://repo.spring.io/libs-milestone-local/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1466798383890
+@default-repo.spring.io-snapshots-http\://repo.spring.io/libs-snapshot-local/.lastUpdated=1466798382405

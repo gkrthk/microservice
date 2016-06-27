@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Jun 25 01:29:53 IST 2016
+http\://repo.spring.io/libs-snapshot-local/.error=Could not transfer artifact org.springframework.data.build\:spring-data-build\:pom\:1.5.2.RELEASE from/to repo.spring.io-snapshots (http\://repo.spring.io/libs-snapshot-local)\: Failed to transfer http\://repo.spring.io/libs-snapshot-local/org/springframework/data/build/spring-data-build/1.5.2.RELEASE/spring-data-build-1.5.2.RELEASE.pom. Error code 409, Conflict
+http\://repo.spring.io/libs-milestone-local/.lastUpdated=1466798392843
+http\://repo.spring.io/libs-milestone-local/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1466798393947
+@default-repo.spring.io-snapshots-http\://repo.spring.io/libs-snapshot-local/.lastUpdated=1466798393463
