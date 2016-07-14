@@ -1,4 +1,0 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Sat Jun 18 22:25:49 IST 2016
-@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1466268949489
-https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact commons-lang\:commons-lang\:jar\:2.1 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.
